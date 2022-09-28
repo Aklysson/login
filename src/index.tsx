@@ -10,11 +10,11 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    <BrowserRouter>
     <AuthProvider>
-      <BrowserRouter>
         <App />
-      </BrowserRouter>
     </AuthProvider>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

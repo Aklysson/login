@@ -1,9 +1,10 @@
+
 import * as C from './style'
 
-export function Private(){
-    return(
+export function Header() {
+    return (
         <C.Container>
-            Página Privada
+            <h1>Olá</h1>
         </C.Container>
     )
 }

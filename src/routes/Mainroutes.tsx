@@ -6,7 +6,7 @@ import { Private } from "../pages/Private"
 export function Routes () {
     let element =  useRoutes([
         {path: '/', element: <Home />},
-        {path: '/private', element:<RequireAuth><Private /></RequireAuth>}
+        {path: '/content', element:<RequireAuth><Private /></RequireAuth>}
     ])
     return element
 }

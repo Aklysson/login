@@ -8,8 +8,9 @@ function App() {
   return (
     <div>
       <Header /> 
-      <hr />
+      <div className="content">
         <Routes />
+        </div>
       <GlobalStyle />
     </div>
   );

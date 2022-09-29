@@ -17,4 +17,19 @@ export const GlobalStyle = createGlobalStyle`
 body {
     background-color: var(--gray-900);
     color: var(--white);
-}` 
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Nunito', sans-serif;
+}
+
+
+.content{
+    margin: 0 auto;
+    max-width: 720px;
+}
+` 
+

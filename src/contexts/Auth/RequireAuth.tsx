@@ -1,11 +1,11 @@
 import { useContext } from "react"
-import { Login } from "../../pages/Login"
+import { Private } from "../../pages/Private"
 import { AuthContext } from "./AuthContext"
 
 export function RequireAuth({children}: {children:JSX.Element}) {
     const auth = useContext(AuthContext)
 if(!auth.user){
-    return <Login />
+    return <Private />
 }
     else  return children
 }

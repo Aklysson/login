@@ -14,4 +14,16 @@ export const Button = styled.button`
     :hover{
         cursor: pointer;
     }
+
+   
+`
+
+export const Container = styled.div`
+
+.modal-content{
+    width: 100px;
+}
+.overlay-content{
+    background-color: blue;
+}
 `

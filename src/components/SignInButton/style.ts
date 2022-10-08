@@ -20,10 +20,5 @@ export const Button = styled.button`
 
 export const Container = styled.div`
 
-.modal-content{
-    width: 100px;
-}
-.overlay-content{
-    background-color: blue;
-}
+
 `

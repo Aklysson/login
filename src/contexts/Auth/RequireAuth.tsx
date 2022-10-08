@@ -7,5 +7,5 @@ export function RequireAuth({children}: {children:JSX.Element}) {
 if(!auth.user){
     return <Private />
 }
-    else  return children
+    return children
 }
